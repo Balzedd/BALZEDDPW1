@@ -1,0 +1,121 @@
+.STONE img{
+    width: 350px;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: contain;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fffbfb00;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+nav {
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.dr1an {
+    background: url('assets/logo.png') no-repeat center;
+    background-size: contain;
+    height: 60vh;
+    color: rgb(234, 255, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btn {
+    background: rgb(0, 0, 0);
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+
+.produk {
+    padding: 50px;
+    text-align: center;
+    flex: 1;
+}
+
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card button{
+    text-size-adjust: initial;
+}
+
+footer {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.harga del {
+    color: gray;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.harga-baru{
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.produk-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.produk1 img {
+    width: 350px;
+    height: 100%;
+    object-fit:contain ;
+    border-radius: 10px;
+}
+
+.produk1 {
+    margin-top: 20px;
+    text-align: center;
+}
