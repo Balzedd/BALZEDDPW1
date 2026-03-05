@@ -1,5 +1,5 @@
 .STONE img{
-    width: 350px;
+    width: 200px;
     height: 100%;
     border-radius: 10px;
     object-fit: contain;
@@ -21,11 +21,11 @@ body {
 
 
 nav {
-    background: black;
+    background: url(https://youtu.be/DaQPyYLzPwQ?si=YHX67pXbx_bloYGY) black;
     color: white;
     display: flex;
     justify-content: space-between;
-    padding: 15px 50px;
+    padding: 100px 50px;
     align-items: center;
 }
 
@@ -41,10 +41,10 @@ nav a {
 }
 
 
-.dr1an {
+.BALZEDD {
     background: url('assets/logo.png') no-repeat center;
     background-size: contain;
-    height: 60vh;
+    height: 30vh;
     color: rgb(234, 255, 0);
     display: flex;
     flex-direction: column;
@@ -53,11 +53,21 @@ nav a {
     text-align: center;
 }
 
-.btn {
+.button {
     background: rgb(0, 0, 0);
     padding: 10px;
     text-decoration: none;
     color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+.buttonshop {
+    background: rgb(248, 247, 247);
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
     border-radius: 5px;
     font-weight: bold;
     display: inline-block;
@@ -75,7 +85,7 @@ nav a {
 .card-container{
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 300px;
     flex-wrap: wrap;
 }
 
@@ -104,7 +114,7 @@ footer {
 .produk-container{
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 100px;
     flex-wrap: wrap;
 }
 
